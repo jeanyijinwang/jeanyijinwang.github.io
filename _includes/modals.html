@@ -18,33 +18,26 @@
                             {% if page.subtitle %}
                             <h2 class="subheading">{{ page.subtitle }}</h2>
                             {% endif %}
-                          </div>
-                      </div>
-                  </div>
-              </div>
-
-              <div class="container">
-                  <div class="row">
-                      <div class="col-lg-8 col-lg-offset-2">
-
-                        {{ content }}
-
-                        <hr>
-
-                        <div class="clearfix">
-
-                          {% if page.previous.url %}
-                          <a class="btn btn-primary float-left" href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{ page.previous.title }}">&larr; Previous<span class="d-none d-md-inline">
-                              Post</span></a>
-                          {% endif %}
-                          {% if page.next.url %}
-                          <a class="btn btn-primary float-right" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{ page.next.title }}">Next<span class="d-none d-md-inline">
-                              Post</span> &rarr;</a>
-                          {% endif %}
-
+                            <p>{{ post.description }}</p>
+                                <ul class="list-inline item-details">
+                                    <li>Client:
+                                        <strong><a href="{{ post.clienturl }}" target="_blank">{{ post.client }}</a>
+                                        </strong>
+                                    </li>
+                                    <li>Date:
+                                        <strong><a>{{ post.project-date }}</a>
+                                        </strong>
+                                    </li>
+                                    <li>Service:
+                                        <strong><a>{{ post.category }}</a>
+                                        </strong>
+                                    </li>
+                                </ul>
+                                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            </div>
                         </div>
-                      </div>
                     </div>
                 </div>
-              </div>
-          </div>
+            </div>
+        </div>
+    {% endfor %}
