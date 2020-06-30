@@ -1,5 +1,5 @@
 ---
-title: IMDb Movie ratings and reviews
+title: Movie ratings and reviews
 subtitle: Datawarehouse Design and Text Mining
 layout: default
 modal-id: 1
