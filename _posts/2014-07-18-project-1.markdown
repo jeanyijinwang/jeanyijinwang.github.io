@@ -1,6 +1,7 @@
 ---
 title: Movie ratings and reviews
 subtitle: Datawarehouse Design and Text Mining
+Method: Text Mining
 layout: default
 modal-id: 1
 date: 2018-12-11
