@@ -3,7 +3,8 @@ layout: post
 title:  "Hello World!"
 date:   2017-12-04 21:15:05 +0000
 image:
-
+thumbnail: roundicons-thumbnail.png
+alt: image-alt
 ---
 
 
