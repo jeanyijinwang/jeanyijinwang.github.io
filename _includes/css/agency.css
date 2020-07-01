@@ -618,9 +618,8 @@ ul.social-buttons li a:active {
   font-weight: 400;
 }
 
-.portfolio-modal .modal-content p {
+.portfolio-modal .modal-content p.item {
     margin-bottom: 30px;
-    text-align: left;
     fontsize: 30px;
 }
 
@@ -628,7 +627,7 @@ ul.social-buttons li a:active {
     margin: 20px 0 30px;
     font-family: {{ site.data.template.font.secondary }};
     font-size: 16px;
-    font-style: italic;
+    font-style: bond;
 }
 
 .portfolio-modal .modal-content ul.list-inline {
