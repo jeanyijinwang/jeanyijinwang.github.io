@@ -618,14 +618,13 @@ ul.social-buttons li a:active {
   font-weight: 400;
 }
 
-.portfolio-modal .modal-content p.item {
+.portfolio-modal .modal-content p {
     margin-bottom: 30px;
     fontsize: 30px;
 }
 
 .portfolio-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
-    font-family: {{ site.data.template.font.secondary }};
     font-size: 40px;
     font-style: bold;
 }
