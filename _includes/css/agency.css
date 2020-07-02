@@ -626,7 +626,7 @@ ul.social-buttons li a:active {
 .portfolio-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
     font-size: 20px;
-    font-style: bold;
+    #fontstyle: bold;
 }
 .portfolio-modal .modal-body p {
   margin-bottom: 30px;
