@@ -620,7 +620,7 @@ ul.social-buttons li a:active {
 
 .portfolio-modal .modal-content p {
     margin-bottom: 30px;
-    fontsize: 30px;
+    font-size: 30px;
 }
 
 .portfolio-modal .modal-content p.item-intro {
@@ -630,7 +630,7 @@ ul.social-buttons li a:active {
 }
 .portfolio-modal .modal-body p {
   margin-bottom: 30px;
-  fontsize: 30px;
+  font-size: 30px;
 }
 
 .portfolio-modal .modal-content ul.list-inline {
