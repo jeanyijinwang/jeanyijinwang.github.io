@@ -411,7 +411,6 @@ section h3.section-subheading {
 #portfolio .portfolio-item .portfolio-img {
     display: inline-block;
     padding-right: 2.5em;
-    vertical-align: middle;
     width: 100%;
 }
 
