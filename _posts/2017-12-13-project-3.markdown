@@ -2,10 +2,10 @@
 layout: default
 title:  "Heart disease Prediction"
 subtitle: Logistic regression and Bagging
-date:   2017-12-04 21:15:05 +0000
-img: movie.jpg
+date:   2017-12-14 21:15:05 +0000
+img: heart.jpg
 sub: Implemented market basket analysis, sentiment analysis and social network analysis to drive insight from the IMDb.com Movie datasets.
-thumbnail: imdb.png
+thumbnail: heart-logo.jpg
 alt: image-alt
 modal-id: 3
 ---
