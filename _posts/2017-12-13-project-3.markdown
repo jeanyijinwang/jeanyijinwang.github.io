@@ -1,10 +1,10 @@
 ---
 layout: default
 title:  "Heart disease Prediction"
-subtitle: Finding the best model to predict coronary heart disease and measure the importance of variables.
+subtitle: logistic regression and Baaging
 date:   2017-12-14 21:15:05 +0000
 img: heart.jpg
-sub:
+sub: Finding the best model to predict coronary heart disease and measure the importance of variables.
 thumbnail: heart-logo.jpg
 alt: image-alt
 modal-id: 3
