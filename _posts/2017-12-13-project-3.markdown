@@ -1,21 +1,30 @@
 ---
 layout: default
 title:  "Heart disease Prediction"
-subtitle: Logistic regression and Bagging
+subtitle: Finding the best model to predict coronary heart disease and measure the importance of variables.
 date:   2017-12-14 21:15:05 +0000
 img: heart.jpg
-sub: Implemented market basket analysis, sentiment analysis and social network analysis to drive insight from the IMDb.com Movie datasets.
+sub:
 thumbnail: heart-logo.jpg
 alt: image-alt
 modal-id: 3
 ---
 
-# About me
-## me me
-### My life
+# About the Project
+The main goal of this project was to predict the coronary heart disease and identify the important factors that caused the disease.
+The evaluation metric was `classification error`.
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+# Methodology
+- Data: From a retrospective sample of males in a heart-disease high-risk region of the Western Cape, South Africa.
+- **Logistic regression**:
+  - Used P-value to measure the importance of variables.
+  - Concluded that the increase in cumulative tobacco usage, low density lipoprotein cholesterol, type-A behavior and age at one set, and the presnet of family history of heart disease will increase the possibility of response coronary heart disease positive.
+  - The overall percentage of correct prediction is *74.2%*.
+- **Bagging**:
+  - Used variable importance measures plot
+  - Concluded that the variables low density lipoprotein cholesterol, age at onset and cumulative tobacco usage are more important in determining response, coronary heart disease positive.
+  - The overall percentage of correct prediction is 71.4%
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
-Jekyll also offers powerful support for code snippets
+# Further Details
+For more information, check out the Report [here](https://github.com/jeanyijinwang/chd/blob/master/ST635%20Project%20-Jean%20Wang.pdf).
