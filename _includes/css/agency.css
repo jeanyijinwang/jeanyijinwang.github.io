@@ -650,6 +650,11 @@ ul.social-buttons li a:active {
     font-size: 20px;
 }
 
+.portfolio-modal .post-body li {
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
 .portfolio-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
     font-size: 20px;
