@@ -19,11 +19,11 @@ The evaluation metric was `classification error`.
 - **Logistic regression**:
   - Used P-value to measure the importance of variables.
   - Concluded that the increase in cumulative tobacco usage, low density lipoprotein cholesterol, type-A behavior and age at one set, and the presnet of family history of heart disease will increase the possibility of response coronary heart disease positive.
-  - The overall percentage of correct prediction is *74.2%*.
+  - The overall percentage of correct prediction is **74.2%**.
 - **Bagging**:
   - Used variable importance measures plot
   - Concluded that the variables low density lipoprotein cholesterol, age at onset and cumulative tobacco usage are more important in determining response, coronary heart disease positive.
-  - The overall percentage of correct prediction is 71.4%
+  - The overall percentage of correct prediction is **71.4%**.
 
 
 # Further Details
